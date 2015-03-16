@@ -1,0 +1,369 @@
+/**** 
+   HASAN YILMAZ
+   COPY RİGHT 2014 
+*****/
+
+
+body {
+	font-family: Tahoma;
+	font-size: 11px; 
+}
+
+.zi-0 { z-index: 0; }
+.zi-1 { z-index: 1; }
+
+.pd-0 {padding: 0;}
+.pd-8 {padding: 8px;}
+.mrg-0 {margin: 0;}
+.mrgt-10 {margin-top:  10px;}
+.mrgl-19 {margin-left: 19px;}
+.mrgl-10 {margin-left: 10px;}
+.mrgl-25 {margin-left: 25px;}
+
+.fl {float: left;}
+.fr {float: right;}
+
+#main_wrapper {
+	width : 100%; height: auto; margin: 0; padding: 0;
+}
+
+#main_header_bg {
+	width : 100%; height: 295px; position: absolute; background: #FFFFFF url('../img/back_bg.jpg') repeat-x right top;
+}
+
+#site {
+	width: 1001px;
+	margin: 0 auto;
+	/*background: #f3f3f3;*/
+	position: relative;
+	top: 0;
+	padding-bottom: 10px;
+}
+
+#site #top_content {
+	height: 82px;
+	background: none;
+	position: relative;
+}
+
+#site #top_content .fastMembership{
+	
+	
+}
+
+#site #top_content .membership{
+	position: absolute;
+	right: 0;
+	bottom: 8px;
+}
+
+#site #main_content {
+	width: 985px;
+	background: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	height:auto;
+}
+
+#main_content #top_inner_content {
+	width: 100%;
+	height: 50px;
+	background-image: url('../img/search_bg.png');
+	background-repeat: no-repeat;
+	padding: 7px 0 0 0;
+}
+
+#top_inner_content #searchBox {
+	width: 501px;
+	background-image:url('../img/searchIcon.png');
+    background-repeat:no-repeat;
+   	background-position:left top;
+   	background-position-x: 10px;
+   	background-position-y: 10px;   
+   	margin:2px 0 0 10px;
+   	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	border: 0;
+	padding: 9px 10px 9px 10px;
+	text-indent: 24px;
+}
+
+#top_inner_content #userName {
+	width: 120px;
+   	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	border: 0;
+	padding: 9px 10px 9px 10px;
+	margin:2px 0 0 10px;
+}
+
+#top_inner_content #userPassword {
+	width: 120px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	border: 0;
+	padding: 9px 10px 9px 10px;
+	margin:2px 0 0 10px;
+}
+
+#top_inner_content img#login_button {
+	width: 54px;
+	height: 31px;
+	margin: 2px 0 0 11px;
+}
+
+#top_inner_content .lostPasswordLink {
+	margin: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#main_content #nav_content ul {
+	height: 50px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#main_content #nav_content ul li {
+	float:left;
+}
+
+#main_content #nav_content ul li a {
+	width: 231px;
+}
+
+#main_content #sidebar_left {
+	width: 208px;
+	padding: 10px 0 10px 0;
+}
+
+#main_content #sidebar_left ul#categories_list {
+	list-style-type: none;
+	padding: 0 0 0 10px;
+	font-family:tahoma;
+	font-size:14px;
+	color:#5d4130;
+	
+}
+
+#main_content #sidebar_left #classicals {
+	padding: 0;
+}
+
+#main_content #sidebar_left #classicals .product {
+	width: 208px;
+	height: 235px;
+	background: #01b3d0;
+	
+}
+
+#main_content #sidebar_left #live_support {
+	padding: 0;
+	margin-top: 10px;
+	
+}
+
+#main_content #sidebar_left #live_support .support-content {
+	width: 208px;
+	height: 235px;
+	background: #a5d334;
+}
+
+#main_content #sidebar_left #jobs {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_left #jobs .jobs-content {
+	width: 208px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#main_content #sidebar_left #connections {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_left #connections .connections-content {
+	width: 202px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#main_content #content {
+	width: 560px;
+	padding: 10px 0 10px 0;
+	margin-left: 9px;
+}
+
+#main_content #content .carousel {
+	width: 545px;
+	height: auto;
+	background: #DDDDDD;
+	margin: 0 auto;
+}
+
+#main_content #content #products_title {
+	margin-top: 10px;
+}
+
+#main_content #content #products {
+	margin-top: 10px;
+	padding: 0 45px 45px 60px;
+}
+
+#main_content #content #products .product {
+	width: 210px;
+	height: auto;
+	background: #DDDDDD;
+}
+
+#main_content #sidebar_right {
+	width: 208px;
+	padding: 0 0 10px 0;
+}
+
+#main_content #sidebar_right #weather_report {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_right #weather_report .weather-content {
+	width: 207px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#main_content #sidebar_right #caroftheweek {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_right #caroftheweek .caroftheweek-content {
+	width: 207px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#main_content #sidebar_right #filtration {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_right #filtration .filtration-content {
+	width: 207px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#main_content #sidebar_right #blognews {
+	padding: 0;
+	margin-top: 10px;
+}
+
+#main_content #sidebar_right #blognews .blognews-content {
+	width: 207px;
+	height: 235px;
+	background: #DDDDDD;
+}
+
+#footer_content {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ecedd5;
+	padding: 23px 15px 23px 15px;
+} 
+
+.welcome { 
+	color:#fff000; 
+	font-weight:700;
+	font-size:18px
+}
+
+.memberlogin{
+	font-weight:700; 
+	color:#fff;
+	font-size:18px
+}
+.memberlogin a:link{
+	text-decoration:none; 
+	color:#fff
+}
+
+.form_register{
+	width:450px;
+	height:auto;
+	margin:0 auto;
+	font-family:Tahoma;
+	font-size:15px;
+	font-weight:700;
+}
+
+.form_content{
+	font-family:tahoma;
+	font-size:12px;
+	font-weight:700;
+    margin-left:10px
+
+}
+.form_register input[type="text"]{
+	width:200px;
+	height:25px
+}
+.form_register input[type="password"]{
+	width:200px;
+	height:25px
+}
+.form_register input[type="submit"]{
+
+	width: 100px;
+	height: 31px;
+	background-image: url('../img/btn.png');
+	background-color:#ddd;
+	border:none;
+	background-repeat: no-repeat;
+	padding: 0 0 0 0;
+	color:#fff;
+	font-weight:700;
+	font-size:13px;
+}
+.form_register input[type="reset"]{
+
+	width: 100px;
+	height: 31px;
+	background-image: url('../img/btn.png');
+	background-color:#ddd;
+	border:none;
+	background-repeat: no-repeat;
+	padding: 0 0 0 0;
+	color:#fff;
+	font-weight:700;
+	font-size:11px;
+}
+.form_register select{
+	width:68px;
+	height:25px
+}
+
+.formm {
+	width: 545px;
+	height: auto;
+	background: #DDDDDD;
+	margin: 0 auto;
+}
+.product_content{ color:#7b7b7b; font-weight:700; font-family:Verdana, Geneva, sans-serif; font-size:10px;overflow: hidden;position:inherit;float: left; margin-top:5px}
+.product_img {width:177px; height:72px; margin-left:20px; margin-top:10px; }
